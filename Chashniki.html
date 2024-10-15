@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chasnikicity</title>
+    <style>
+        a{
+text-decoration: none;
+color: inherit;
+}
+ul{
+    list-style: none;
+}
+.container{
+max-width: 1180px;
+padding-left: 10px;
+padding-right: 10px;
+margin: 0 auto;;
+}
+.menu__btn{
+    display: none;
+
+    width: 30px;
+height: 25px;
+border: none;
+background-color: transparent;
+padding: 0;
+border-radius: 0;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.header{
+    background: rgb(255, 248, 243);
+}
+.header__inner{
+    padding-top: 4px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.menu__list{
+  display: flex;
+  gap: 20px;  
+}
+.menu__list-link{
+    text-transform: uppercase;
+}
+.phone{
+    position: relative;
+}
+.logo__img{
+    width: 150px;
+    height: 50px;
+}
+h1, h2{
+    text-align: center;
+}
+.maintex{
+    padding: 10px 150px;
+}
+img{
+    text-align: center;
+    padding-left: 200px;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+       <a href="#" class="logo"><img src="logo.jpg" alt="" class="logo__img"></a>
+       <nav class="menu header__menu">
+            <ul class="menu__list header__menu-list">
+    <li class="menu__list-item"><a href="#m1" class="menu__list-link">Происхождение</a></li>
+    <li class="menu__list-item"><a href="#m2" class="menu__list-link">Символы</a></li>
+    <li class="menu__list-item"><a href="#m3" class="menu__list-link">На карте</a></li>
+    <li class="menu__list-item"><a href="#m4" class="menu__list-link">Город сейчас</a></li>
+       </ul>
+      </nav>
+      <a href="tel:+375333461378" class="phone">+375 33 346 13 78</a>
+    </div>
+      </header>
+    <div class="maintex">
+        <div class="maintex1">
+    <h1 id="m1">Чашники - город <strong>ЛУЧШИХ людей!</strong></h1>
+    <h2>Происхождение</h2>
+<p>В летописях Чашники впервые упоминаются в 1504 году. В XVI веке город, расположенный на берегу реки с красивым названием Улла, находился в составе Полоцкого воеводства ВКЛ.</p>
+<img src="reka.jpg" alt="Улла">
+<p>Есть несколько версий того, почему у города такое название. Согласно одной из них, город так называется из-за чашеобразной низины, в которой расположен.</p>
+<p>Вторая версия связана с гончарным делом, когда-то здесь изготавливалось много глиняной посуды, в том числе и чашек.</p>
+<p>Ну и третья версия предполагает, что слово «чашники» произошло от названия придворной должности и чина в хозяйстве русских князей и царей в 13-нач. 18 вв. Чашники прислуживали на праздничных обедах, заведовали пчеловодством и медоварением.</p>
+</div>
+<div class="maintex2">
+    <h2 id="m2">Символы</h2>
+    <p>Рассмотрим герб моего города</p>
+    <img src="gerb.jpg">
+</div>
+<div class="maintex3">
+    <h2 id="m3">Чашники на карте Беларуси</h2>
+    <img src="map.jpg">
+</div>
+<div class="maintex3">
+    <h2 id="m4">Город сейчас</h2>
+<p>Все новости по городу вы можете посмотреть, перейдя по фото</p>
+<a href="https://www.chashnikinews.by/"><img src="mag.jpg"></a>
+</div>
+</div>
+</body>
+</html>
